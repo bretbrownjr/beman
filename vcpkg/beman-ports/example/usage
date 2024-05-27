@@ -1,0 +1,4 @@
+vcpkg-sample-library provides CMake targets:
+
+find_package(example CONFIG REQUIRED)
+target_link_libraries(main PRIVATE example::example)
